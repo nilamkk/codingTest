@@ -22,6 +22,7 @@ const checkPanagram=(str)=>{
     if(presentL.length===26){
         console.log("Pangram sentence");
     }else{
+        console.log("Not Pangram sentence");
         let absentL=[]
         // traversing from a to z
         for(let ch=97;ch<=122;ch=ch+1){
